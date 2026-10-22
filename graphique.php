@@ -16,7 +16,7 @@ $hauteur = 250;
 $marge   = 30;
 
 // 2. Creation de l'image
-$im = imagecreatetruecolor($largeur, $hauteur);
+$im = imagecreate($largeur, $hauteur);
 
 // 3. Allocation des couleurs : la premiere ($blanc) remplit le fond
 $blanc = imagecolorallocate($im, 255, 255, 255);
