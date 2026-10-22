@@ -3,7 +3,7 @@
 header("Content-Type: image/png");
 
 // 2. Creation d'une image de 300x200 pixels
-$im = imagecreatetruecolor(300, 200);
+$im = imagecreate(300, 200);
 
 // 3. Allocation des couleurs (Rouge, Vert, Bleu)
 // La premiere couleur allouee remplit automatiquement le fond : ici blanc
